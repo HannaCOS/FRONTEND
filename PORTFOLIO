@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <header>
+            **IMAGEM**
+    <h1>Hanna C. Oliveira Santiago</h1>
+    <h2>Analista de Planejamento e Desenvolvedora Back-End</h2>
+    <p>Gosto de etc etc etc etc.</p>				
+        **LINKS REDE SOCIAL**
+        **BOTÃO SAIBA MAIS**
+        </header>
+        
+    <h3>Quem sou eu</h3>
+   
+       **IMAGEM**
+    <section>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Fugit minus impedit maxime, quae soluta quis cumque perferendis! Doloribus quaerat, placeat iste facere, 
+        aspernatur ex cum veritatis laudantium, officia, non porro exercitationem incidunt quis dolore? Officia ex accusamus expedita optio, voluptatem minus?
+        In maiores omnis aperiam earum ab molestiae beatae laborum blanditiis incidunt, delectus dolor,
+        id voluptates optio aspernatur aliquam saepe atque labore? Tempore reprehenderit ab ipsam perspiciatis ut,
+        provident perferendis sapiente in numquam blanditiis, enim, illo error nulla incidunt quos quidem ratione repellat ipsa molestias veritatis? Mollitia,
+        fugit dolore commodi porro repudiandae atque, eos, ipsum quam culpa fuga deleniti quae.</p>
+    </section>  
+       
+    <section>
+        <h3>Formação acadêmica</h3>
+
+       <ol>
+            <li>Ensino médio completo no colégio</li>
+            <li>Graduada na Universidade Federal de São Paulo</li>
+            <li>Pós graduada em Design Interativo na Universidade de São Paulo</li>
+       </ol>
+    </section> 
+    <div>
+    <section>
+        <h3>Habilidades</h3>
+    </div>              
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Fugit minus impedit maxime, quae soluta quis cumque perferendis! Doloribus quaerat, placeat iste facere, 
+        aspernatur ex cum veritatis laudantium, officia, non porro exercitationem incidunt quis dolore? Officia ex accusamus expedita optio, voluptatem minus?
+        In maiores omnis aperiam earum ab molestiae beatae laborum blanditiis incidunt, delectus dolor,
+        id voluptates optio aspernatur aliquam saepe atque labore? Tempore reprehenderit ab ipsam perspiciatis ut,
+        provident perferendis sapiente in numquam blanditiis, enim, illo error nulla incidunt quos quidem ratione repellat ipsa molestias veritatis? Mollitia,
+        fugit dolore commodi porro repudiandae atque, eos, ipsum quam culpa fuga deleniti quae.</p>
+    </section>    
+   
+    <div><section>
+        <h3>Contato</h3>
+    </div>
+        <form>
+        <div>
+            <label>Nome:</label>
+            <input>
+        </div> 
+        
+        <div>   
+            <label>E-mail:</label>
+            <input>
+        </div>   
+            <label>Mensagem:</label>
+            <textarea></textarea>
+         <button> Enviar</button>   
+        </form>
+    </section>    
+    </body>
+</html>
