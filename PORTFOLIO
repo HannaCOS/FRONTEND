@@ -2,44 +2,41 @@
 <html>
     <head>
         <meta charset="UTF-8" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <img class="imagem-inicial" src="img/img_perfil.jpg" title="Foto de perfil"/>
+        <link rel="stylesheet" href="css/index.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        
     </head>
     <body>
-        <header>
-            **IMAGEM**
-    <h1>Hanna C. Oliveira Santiago</h1>
-    <h2>Analista de Planejamento e Desenvolvedora Back-End</h2>
-    <p>Gosto de etc etc etc etc.</p>				
-        **LINKS REDE SOCIAL**
-        **BOTÃO SAIBA MAIS**
-        </header>
+        <h1>Hanna C. Oliveira Santiago</h1>
+        <h2>Analista de Planejamento/Desenvolvedora Back-End</h2>
+        <p class="frase-inicial"> Gosto de etc etc etc etc.</p>
+       <nav>
+        <a href="https://br.linkedin.com/" target="_blank">		
+            <i class="fa fa-linkedin-square"></i>
+        </a>
+        <a hef="https://github.com/HannaCOS" target="_blank">
+            <i class="fa fa-github-square"></i>
+        </a>   
+        <a href="http://www.facebook.com" target="_blank">
+            <i class="fa fa-facebook-square"></i>  
+        </a>	
+        <a href="https://instagram.com/hannacos" target="_blank">
+            <i class="fa fa-instagram"></i>
+        </a>	
+       <div class="estilo-botao-saibamais">
+        <a class="botao-saibamais" href=""> Saiba Mais  
+        </a>
+    </div>
         
+    </nav>    
+    
     <h3>Quem sou eu</h3>
-   
-       **IMAGEM**
-    <section>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Fugit minus impedit maxime, quae soluta quis cumque perferendis! Doloribus quaerat, placeat iste facere, 
-        aspernatur ex cum veritatis laudantium, officia, non porro exercitationem incidunt quis dolore? Officia ex accusamus expedita optio, voluptatem minus?
-        In maiores omnis aperiam earum ab molestiae beatae laborum blanditiis incidunt, delectus dolor,
-        id voluptates optio aspernatur aliquam saepe atque labore? Tempore reprehenderit ab ipsam perspiciatis ut,
-        provident perferendis sapiente in numquam blanditiis, enim, illo error nulla incidunt quos quidem ratione repellat ipsa molestias veritatis? Mollitia,
-        fugit dolore commodi porro repudiandae atque, eos, ipsum quam culpa fuga deleniti quae.</p>
-    </section>  
-       
-    <section>
-        <h3>Formação acadêmica</h3>
-
-       <ol>
-            <li>Ensino médio completo no colégio</li>
-            <li>Graduada na Universidade Federal de São Paulo</li>
-            <li>Pós graduada em Design Interativo na Universidade de São Paulo</li>
-       </ol>
-    </section> 
-    <div>
-    <section>
-        <h3>Habilidades</h3>
-    </div>              
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    <section class="sessao-sobre">
+        
+        <img class="imagem-sessao" src="img/img_segunda.jpg"/>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Fugit minus impedit maxime, quae soluta quis cumque perferendis! Doloribus quaerat, placeat iste facere, 
         aspernatur ex cum veritatis laudantium, officia, non porro exercitationem incidunt quis dolore? Officia ex accusamus expedita optio, voluptatem minus?
         In maiores omnis aperiam earum ab molestiae beatae laborum blanditiis incidunt, delectus dolor,
@@ -47,10 +44,23 @@
         provident perferendis sapiente in numquam blanditiis, enim, illo error nulla incidunt quos quidem ratione repellat ipsa molestias veritatis? Mollitia,
         fugit dolore commodi porro repudiandae atque, eos, ipsum quam culpa fuga deleniti quae.</p>
     </section>    
-   
-    <div><section>
+    <section class="sessao-formacao">
+        <h3>Formação acadêmica</h3>
+            <li>Graduada na Universidade Federal de São Paulo</li>
+    </section> 
+        <section class="sessao-habilidades">
+        <h3> Habilidades</h3>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Fugit minus impedit maxime, quae soluta quis cumque perferendis! Doloribus quaerat, placeat iste facere, 
+        aspernatur ex cum veritatis laudantium, officia, non porro exercitationem incidunt quis dolore? Officia ex accusamus expedita optio, voluptatem minus?
+        In maiores omnis aperiam earum ab molestiae beatae laborum blanditiis incidunt, delectus dolor,
+        id voluptates optio aspernatur aliquam saepe atque labore? Tempore reprehenderit ab ipsam perspiciatis ut,
+        provident perferendis sapiente in numquam blanditiis, enim, illo error nulla incidunt quos quidem ratione repellat ipsa molestias veritatis? Mollitia,
+        fugit dolore commodi porro repudiandae atque, eos, ipsum quam culpa fuga deleniti quae.</p>
+    </section>    
+    
+        <section class="sessao-contato">
         <h3>Contato</h3>
-    </div>
         <form>
         <div>
             <label>Nome:</label>
@@ -68,3 +78,73 @@
     </section>    
     </body>
 </html>
+---
+body{
+    text-align: center;  
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin:0;
+}
+h1{
+    color: #000000;
+}
+h2{ font-size: 20px;
+    color: #c4c4c4;
+    font-weight: 700;
+}
+i{ text-decoration: none;
+}
+p{
+    color: #696969;
+    font-size: 16px;
+}
+.frase-inicial{
+    color: #8B0000;
+}             
+.paragrafo-geral{
+    color: #ffffff;
+}
+.paragrafo-habilidades{
+    color: #ffffff ;
+}
+.botao-saibamais{
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #800080;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+.estilo-botao-saibamais{
+    margin: 10px;
+}
+.fundo-habilidades{
+    background-color: #8B0000; 
+    color:white;             
+}      
+.imagem-inicial{
+    width: 200px;
+    height: 300px;
+    border-radius: 400px;
+}    
+.imagem-sessao{
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+}    
+.sessao-sobre{
+    background-color: #08b8b0;
+    display: flex;
+    text-align: center;
+    margin: 0;
+}
+.sessao-habilidades{
+    background-color: #f5f5f5;
+}
+.sessao-contato{
+    background-color: #08b8b0;
+}
+.sessao-formacao{
+    background-color: #8b0000;
+}
